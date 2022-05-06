@@ -1,0 +1,16 @@
+There is a Logic Pro X environment that make MUTE buttons on ELEKTRON MODELS:SAMPLE to act as SOLO buttons. Radio mode only.
+
+    Open project with LOGIC PRO, setup the M:S so Track 1 respond to MIDI channel 1, track 2 to MIDI channel 2 and so on.
+    As I’ve not found other solution to switch the SOLO mode ON/OFF from the M:S interface, the FADE setting of LFO (in LFO SETUP menu) of Track 1 is used:
+    O value disable SOLO Mode (PADs act normal MUTE)
+    1 value activate the SOLO Mode
+
+To use another CC to switch the mode on/off (if you have a spare button on another MIDI control surface), open the Environment window of Logic and choose the layer called “M:S SOLO MODE”. On the left, find the cable selector labeled “SETUP SOLO MODE ON/OFF CC” and configure it as you need.
+Near this cable selector, a transformer module allow to remap CC’s range if needed.
+You may have to connect the M:S pin of Logic “physical input” module to the monitor module just below.
+
+PADs LEDs on the Models:Sample are accurate.
+It should work with Model:Cycles too, as MIDI implementation for MUTE are the same.
+
+
+The template also provide an easy to use interface that allow to access 3 more LFO reset modes (Sample & Hold, One cycle and Half cycle), only available on the M:S control surface from Velocity Modulation. So, you will be able to P.lock this lfo retrigger modes or to use them without requiring Velocity modulation to be activated...
