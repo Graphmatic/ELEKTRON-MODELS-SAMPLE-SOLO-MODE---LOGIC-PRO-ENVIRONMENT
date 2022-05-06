@@ -14,3 +14,8 @@ It should work with Model:Cycles too, as MIDI implementation for MUTE are the sa
 
 
 The template also provide an easy to use interface that allow to access 3 more LFO reset modes (Sample & Hold, One cycle and Half cycle), only available on the M:S control surface from Velocity Modulation. So, you will be able to P.lock this lfo retrigger modes or to use them without requiring Velocity modulation to be activated...
+
+
+To:Do:
+ - Tested using the USB port of M:S only, should work with DIN MIDI ports, but MIDI loop may happen if M:S MIDI OUT is set to THRU ...(?)
+
