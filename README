@@ -7,7 +7,8 @@ There is a Logic Pro X environment that make MUTE buttons on ELEKTRON MODELS:SAM
 
 To use another CC to switch the mode on/off (if you have a spare button on another MIDI control surface), open the Environment window of Logic and choose the layer called “M:S SOLO MODE”. On the left, find the cable selector labeled “SETUP SOLO MODE ON/OFF CC” and configure it as you need.
 Near this cable selector, a transformer module allow to remap CC’s range if needed.
-You may have to connect the M:S pin of Logic “physical input” module to the monitor module just below.
+You may have to connect the M:S pin of Logic “physical input” module to the monitor module just below. The module that you may need to edit are linked with green cables.
+I added a screen capture to make it more clear.
 
 PADs LEDs on the Models:Sample are accurate.
 It should work with Model:Cycles too, as MIDI implementation for MUTE are the same.
