@@ -20,3 +20,5 @@ The template also provide an easy to use interface that allow to access 3 more L
 To:Do:
  - Tested using the USB port of M:S only, should work with DIN MIDI ports, but MIDI loop may happen if M:S MIDI OUT is set to THRU ...(?)
 
+Limitation: When using "Play Note", if you sequentially press one LFO-mode button then another one, the LFO-mode change resp. To the second selection will only happen after the note event, meaning the first note will be played with the LFO-mode previously selected. From Logic, the note event is send before the CC and so it's not possible to solve that: the note seems to be prioritised over CCs in the M:S ...
+
